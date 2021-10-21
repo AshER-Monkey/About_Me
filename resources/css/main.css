@@ -1,0 +1,279 @@
+* {box-sizing: border-box;}
+
+html {font-size: 16px;}
+
+@font-face {
+    font-family: fancyFont;
+    src: url(C:/Users/Ashleigh/Desktop/Codecademy/DevProjects/Codecademy_Portfolio_Website/resources/Amatic_SC/AmaticSC-Regular.ttf);
+    color: #f0e7d5;
+}
+
+body {background-color: #1c1c1c;}
+
+h1, h2, h3, h4, h5, h6, .navbar-text {font-family: fancyFont;}
+
+h1 {font-size: 43px;}
+h2 {font-size: 30px;}
+h3 {font-size: 27px;}
+h4 {font-size: 25px;}
+h5 {font-size: 23px;}
+h6 {font-size: 21px;}
+
+h1 {
+    font-family: fancyFont;
+    color: #1c1c1c;
+}
+
+h2, h3, h4, h5, h6, .navbar-text {color: #ff9933;}
+
+p {color: #d9d9d9;}
+
+a:link {color: yellow;}
+
+a:visited {color: yellow;}
+
+a:hover {color: khaki;}
+
+a:active {color: #ffcc00;}
+
+i {color: #ffcc00;}
+
+hr { 
+    padding: 0;
+    width: 75vw;
+    border: none; 
+    border-top: 2px double #93bd20; 
+    color: #93bd20; 
+    text-align: center; 
+    font-style: italic;
+    font-weight:lighter;
+    letter-spacing: 5px;
+} 
+  
+hr:after { 
+    content: "***"; 
+    display: inline-block; 
+    position: relative; 
+    top: -0.7em; 
+    font-size: 2em; 
+    padding: 0 0.25em; 
+    background: transparent; 
+}
+
+#header #home {
+    background: linear-gradient(to bottom, #ff6600 0%, #ff9933 50%, #ff6600 100%);
+    padding: 16px;
+}
+
+.container-fluid p {color: #1c1c1c;}
+
+.container {background-color: #1c1c1c;}
+
+.container p, .container ul li {color: #d9d9d9;}
+
+#header nav {
+    color: white;
+    border: 1px solid #5d910b;
+    background: linear-gradient(#93bd20, #659e10);
+    background-color: #93bd20;
+    border-bottom: 1px solid black;
+    padding: 0 12px;
+}
+
+#header nav ul li {
+    color: white;
+    border: 1px solid #5d910b;
+    background: linear-gradient(#93bd20, #659e10);
+    background-color: #93bd20;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+#header nav ul li:hover {background: linear-gradient(#659e10, #77991a);}
+
+#header h2 {color: #1c1c1c;}
+
+#header .navbar-text {
+    font-family: fancyFont;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1c1c1c;
+    letter-spacing: 6px;
+}
+
+#home img {
+    width: 25%;
+    height: auto;
+}
+
+.socials a:hover, #socials img:hover  {text-decoration: none;}
+
+.bg {
+    box-sizing: border-box;
+    width: 900px;
+    height: 360px;
+    background-image: url('C:/Users/Ashleigh/Desktop/Codecademy/DevProjects/Codecademy_Portfolio_Website/resources/images/Roll animation background_doom.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sun {
+    position: absolute;
+    top: -20px;
+    left: 70%;
+}
+
+#sun img {
+    width: 75%;
+    height: auto;
+    transform: rotate(20deg);
+}
+
+#loading01 {
+	display: block;	
+	top: 70%;
+	position: relative;
+	left: 0;
+	border: none;
+}
+
+.loading01 {
+    transition: all 15s ease;
+	animation-iteration-count: 2;
+	animation: spin 2000ms linear infinite, moveLeftToRight 15s linear infinite;
+}
+
+@keyframes moveLeftToRight {
+    0%   { left: -300px; }
+    100% { left: 100%; }
+}
+
+#loading02 {
+	display: block;	
+	top: 50%;
+	position: relative;
+	left: 0;
+	border: none;
+}
+
+.loading02 {
+    transition: all 15s ease;
+	animation-iteration-count: 2;
+	animation: spin 4000ms linear infinite, LeftToRight 15s linear infinite;
+}
+
+@keyframes LeftToRight {
+    0%   { left: -500px; }
+    100% { left: 100%; }
+}
+
+#loading03 {
+	display: block;	
+	top: 25%;
+	position: relative;
+	left: 0;
+	border: none;
+}
+
+.loading03 {
+    transition: all 5s ease;
+	animation-iteration-count: 3;
+	animation: spin 600ms linear infinite, ToRight 5s linear infinite;
+}
+
+@keyframes ToRight {
+    0%   { left: -100px; }
+    100% { left: 100%; }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}   
+
+.pause {
+    -webkit-animation-play-state: paused; 
+    -moz-animation-play-state: paused; 
+    -o-animation-play-state: paused;
+     animation-play-state: paused;
+}
+
+footer {background: linear-gradient(#2a2a29, #1c1c1c);}
+
+footer p {color: white;}
+
+/* media queries */
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px) {
+    #home img {
+        width: 75%;
+        height: auto;
+    }
+    .bg {
+	    width: 85%;
+	    background-size: cover;
+	}
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px) {
+    #home img {
+        width: 50%;
+        height: auto;
+    }
+    .bg {
+	    width: 90%;
+	    background-size: cover;
+	}
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) {
+    #home img {
+        width: 25%;
+        height: auto;
+    }
+    .bg {
+	    width: 95%;
+	    background-size: cover;
+	}
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) {
+    #home img {
+        width: 15%;
+        height: auto;
+    }
+    .bg {
+	    width: 100%;
+	    background-size: cover;
+	}
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+    #home img {
+        width: 15%;
+        height: auto;
+    }
+    .bg {
+	    width: 100%;
+	    background-size: cover;
+	}
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+    #home img {
+        width: 15%;
+        height: auto;
+    }
+    .bg {
+	    width: 100%;
+	    background-size: cover;
+	}
+}
