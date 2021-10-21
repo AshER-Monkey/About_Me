@@ -126,7 +126,7 @@ hr:after {
 }
 
 #sun img {
-    width: 75%;
+    width: 50%;
     height: auto;
     transform: rotate(20deg);
 }
