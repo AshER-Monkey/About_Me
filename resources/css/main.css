@@ -113,10 +113,12 @@ hr:after {
     box-sizing: border-box;
     width: 900px;
     height: 360px;
-    background-image: url('/About_Me/resources/images/Roll animation background_doom.png');    
+    background-image: url('C:/Users/Ashleigh/Desktop/Codecademy/DevProjects/Codecademy_Portfolio_Website/resources/images/Roll animation background_doom.png');    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    margin: 0px auto;
 }
 
 #sun {
@@ -133,10 +135,11 @@ hr:after {
 
 #loading01 {
 	display: block;	
-	top: 70%;
-	position: relative;
+	top: 80%;
+	position: absolute;
 	left: 0;
 	border: none;
+    z-index: 3;
 }
 
 .loading01 {
@@ -152,10 +155,11 @@ hr:after {
 
 #loading02 {
 	display: block;	
-	top: 50%;
-	position: relative;
+	top: 80%;
+	position: absolute;
 	left: 0;
 	border: none;
+    z-index: 4;
 }
 
 .loading02 {
@@ -171,10 +175,11 @@ hr:after {
 
 #loading03 {
 	display: block;	
-	top: 25%;
-	position: relative;
+	top: 80%;
+	position: absolute;
 	left: 0;
 	border: none;
+    z-index: 5;
 }
 
 .loading03 {
