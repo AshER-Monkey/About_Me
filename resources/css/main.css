@@ -107,7 +107,7 @@ hr:after {
     height: auto;
 }
 
-.socials a:hover, #socials img:hover  {text-decoration: none;}
+.socials a:hover, .socials img:hover  {text-decoration: none;}
 
 .bg {
     box-sizing: border-box;
