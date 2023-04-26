@@ -60,7 +60,7 @@ hr:after {
     background: transparent; 
 }
 
-#header #home {
+.header .home {
     background: linear-gradient(to bottom, #ff6600 0%, #ff9933 50%, #ff6600 100%);
     padding: 16px;
 }
@@ -71,7 +71,7 @@ hr:after {
 
 .container p, .container ul li {color: #d9d9d9;}
 
-#header nav {
+.header nav {
     color: white;
     border: 1px solid #5d910b;
     background: linear-gradient(#93bd20, #659e10);
@@ -80,7 +80,7 @@ hr:after {
     padding: 0 12px;
 }
 
-#header nav ul li {
+.header nav ul li {
     color: white;
     border: 1px solid #5d910b;
     background: linear-gradient(#93bd20, #659e10);
@@ -90,11 +90,11 @@ hr:after {
     text-align: center;
 }
 
-#header nav ul li:hover {background: linear-gradient(#659e10, #77991a);}
+.header nav ul li:hover {background: linear-gradient(#659e10, #77991a);}
 
-#header h2 {color: #1c1c1c;}
+.header h2 {color: #1c1c1c;}
 
-#header .navbar-text {
+.header .navbar-text {
     font-family: fancyFont;
     font-size: 20px;
     font-weight: bolder;
@@ -102,7 +102,7 @@ hr:after {
     letter-spacing: 6px;
 }
 
-#home img {
+.home img {
     width: 25%;
     height: auto;
 }
@@ -213,7 +213,7 @@ footer p {color: white;}
 
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px) {
-    #home img {
+    .home img {
         width: 75%;
         height: auto;
     }
@@ -225,7 +225,7 @@ footer p {color: white;}
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:481px) {
-    #home img {
+    .home img {
         width: 50%;
         height: auto;
     }
@@ -237,7 +237,7 @@ footer p {color: white;}
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px) {
-    #home img {
+    .home img {
         width: 25%;
         height: auto;
     }
@@ -249,7 +249,7 @@ footer p {color: white;}
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px) {
-    #home img {
+    .home img {
         width: 15%;
         height: auto;
     }
@@ -261,7 +261,7 @@ footer p {color: white;}
 
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
-    #home img {
+    .home img {
         width: 15%;
         height: auto;
     }
@@ -273,7 +273,7 @@ footer p {color: white;}
 
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {
-    #home img {
+    .home img {
         width: 15%;
         height: auto;
     }
