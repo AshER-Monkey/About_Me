@@ -86,8 +86,6 @@ hr:after {
     background: linear-gradient(#93bd20, #659e10);
     background-color: #93bd20;
     font-size: 14px;
-    display: inline-block;
-    text-align: center;
 }
 
 .header nav ul li:hover {background: linear-gradient(#659e10, #77991a);}
@@ -96,7 +94,7 @@ hr:after {
 
 .header .navbar-text {
     font-family: fancyFont;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     color: #1c1c1c;
     letter-spacing: 6px;
