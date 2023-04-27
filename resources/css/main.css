@@ -40,26 +40,13 @@ a:active {color: #ffcc00;}
 i {color: #ffcc00;}
 
 hr { 
+    display: block;
     margin: 1.25rem 0;
     padding: 0;
     width: 75vw;
     border: none; 
     border-top: 2px double #93bd20; 
     color: #93bd20; 
-    text-align: center; 
-    font-style: italic;
-    font-weight:lighter;
-    letter-spacing: 5px;
-} 
-  
-hr:after { 
-    content: "***"; 
-    display: inline-block; 
-    position: relative; 
-    top: -0.7em; 
-    font-size: 2em; 
-    padding: 0 0.25em; 
-    background: transparent; 
 }
 
 .header .home {
