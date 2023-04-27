@@ -40,7 +40,7 @@ a:active {color: #ffcc00;}
 i {color: #ffcc00;}
 
 hr { 
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
     width: 75vw;
     border: none; 
