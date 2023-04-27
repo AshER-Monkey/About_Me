@@ -5,12 +5,13 @@ html {font-size: 16px;}
 @font-face {
     font-family: fancyFont;
     src: url(/About_Me/resources/Amatic_SC/AmaticSC-Regular.ttf);
+    font-display: swap;
     color: #f0e7d5;
 }
 
 body {background-color: #1c1c1c;}
 
-h1, h2, h3, h4, h5, h6, .navbar-text {font-family: fancyFont;}
+h1, h2, h3, h4, h5, h6, .navbar-text {font-family: fancyFont, sans-serif;}
 
 h1 {font-size: 43px;}
 h2 {font-size: 30px;}
