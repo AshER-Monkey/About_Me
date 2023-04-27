@@ -100,11 +100,6 @@ hr:after {
     letter-spacing: 6px;
 }
 
-.home img {
-    width: 25%;
-    height: auto;
-}
-
 .socials a:hover, .socials img:hover  {text-decoration: none;}
 
 .bg {
@@ -211,72 +206,48 @@ footer p {color: white;}
 
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px) {
-    .home img {
-        width: 75%;
-        height: auto;
-    }
     .bg {
-	    width: 85%;
-	    background-size: cover;
-	}
+        width: 85%;
+	background-size: cover;
+    }
 }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:481px) {
-    .home img {
-        width: 50%;
-        height: auto;
-    }
     .bg {
-	    width: 90%;
-	    background-size: cover;
-	}
+        width: 90%;
+	background-size: cover;
+    }
 }
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px) {
-    .home img {
-        width: 25%;
-        height: auto;
-    }
     .bg {
-	    width: 95%;
-	    background-size: cover;
-	}
+        width: 95%;
+	background-size: cover;
+    }
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:961px) {
-    .home img {
-        width: 15%;
-        height: auto;
-    }
     .bg {
-	    width: 100%;
-	    background-size: cover;
-	}
+        width: 100%;
+	background-size: cover;
+    }
 }
 
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
-    .home img {
-        width: 15%;
-        height: auto;
-    }
     .bg {
-	    width: 100%;
-	    background-size: cover;
-	}
+        width: 100%;
+	background-size: cover;
+    }
 }
 
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {
-    .home img {
-        width: 15%;
-        height: auto;
-    }
     .bg {
-	    width: 100%;
-	    background-size: cover;
-	}
+        width: 100%;
+	background-size: cover;
+    }
 }
